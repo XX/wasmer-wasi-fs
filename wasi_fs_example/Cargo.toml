@@ -1,0 +1,11 @@
+[package]
+name = "wasi_fs_example"
+version = "0.1.0"
+authors = ["Alexander Mescheryakov <freecoder.xx@gmail.com>"]
+edition = "2018"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]

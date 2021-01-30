@@ -1,0 +1,10 @@
+[package]
+name = "runner"
+version = "0.1.0"
+authors = ["Alexander Mescheryakov <freecoder.xx@gmail.com>"]
+edition = "2018"
+license = "MIT"
+
+[dependencies]
+wasmer = "1.0.1"
+wasmer-wasi = "1.0.1"

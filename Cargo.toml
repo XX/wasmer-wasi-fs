@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "wasi_fs_example",
+    "runner",
+]
+
