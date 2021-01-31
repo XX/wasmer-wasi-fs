@@ -14,6 +14,9 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let import_object = wasi_env.import_object(&module)?;
     let instance = Instance::new(&module, &import_object)?;
 
+    let start = instance.exports.get_function("_initialize")?;
+    start.call(&[])?;
+
     let start = instance.exports.get_function("start")?;
     start.call(&[])?;
 

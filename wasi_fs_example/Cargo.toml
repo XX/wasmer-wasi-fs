@@ -5,7 +5,4 @@ authors = ["Alexander Mescheryakov <freecoder.xx@gmail.com>"]
 edition = "2018"
 license = "MIT"
 
-[lib]
-crate-type = ["cdylib"]
-
 [dependencies]
